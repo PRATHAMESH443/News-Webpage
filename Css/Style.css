@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#latestNews {
+  flex: 8;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  color: #fff;
+}
+
+#latestNews div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 12%;
+}
+
+#latestNews i {
+  color: white;
+  padding-right: 15px;
+}
+
+#latestNews h6 {
+  margin: 0;
+  font-weight: 900;
+}
+
+#Clock h6 {
+  margin: 0;
+  padding-left: 24px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.navLink {
+  padding-right: 5%;  
+}
+
+.navLink a{
+color: white !important; 
+}
+
+#Clock {
+ display: flex;
+ flex-direction: row;  
+}
+
+#Clock h6{
+  color: #888;
+}
+
+#logoTag{
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+#logoTag h1{
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+}
+
+#weatherTemplate .card-body p,
+#weatherTemplate span{
+  background: #fff;
+  padding: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #03A9F4;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  margin: 10px;
+}
+
+#weatherTemplate .card-body div{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#covidBlock section {
+  display: flex;
+}
+
+#covidBlock section div{
+  background: #fff;
+  padding: 5px;
+   border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px #eee;
+   margin: 0px 5px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#covidBlock section div h4 {
+  margin: 4px 10px 4px 0px;
+  padding: 7px;
+}
+
+#Title_Section ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+#Title_Section img{
+  width: 150px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 25px; 
+}
+
+#sports img:hover,#health img:hover,#business img:hover,#science :hover,#technology img:hover,#entertainment img:hover{
+  border: lawngreen 2px solid;
+}
+
+#page_content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#page_content .enterImg {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#page_content .row {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  width: unset;
+}

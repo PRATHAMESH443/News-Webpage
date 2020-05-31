@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News ApiProject</title>
+    <link rel="stylesheet" href="./Css/Style.css" />
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css" />
+  </head>
+  <body>
+
+    <section id="linkHeader">
+      <article>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 linkTags">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse linkTagsContent"
+            id="navbarNavAltMarkup"
+          >
+            <div id="latestNews">
+              <div>
+                <i class="fad fa-bullhorn"></i>
+                <h6>INDIA</h6>
+              </div>
+              <h6 id="Clock"></h6>
+            </div>
+            <div class="navbar-nav navLink">
+              <a class="nav-item nav-link" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="nav-item nav-link" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="nav-item nav-link" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="nav-item nav-link" href="#"
+                ><i class="fab fa-tumblr"></i
+              ></a>
+              <a class="nav-item nav-link" href="#"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            
+            </div>
+          </div>
+        </nav>
+      </article>
+    </section>
+
+    <section id="headings">
+      <article>
+        
+        <div id="logoTag" >
+          <h1>NEWS INDIA</h1>
+        </div>
+        
+      </article>
+    </section>
+
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Corona Global Count</a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" id="covidBlock"></a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <article>
+        <nav>
+          <div id="page_content">
+          <div id="Title_Section" class="col-md-2 ml-10">
+            <ul>
+              <a href="#" id="sports">
+                <img src="./Images/Sport_bg.jpg" alt="sports"
+              /></a>
+
+              <a href="#" id="business">
+                <img src="./Images/business_bg.jpg" alt="business" />
+              </a>
+              <a href="#" id="health">
+                <img src="./Images/health_bg.jpg" alt="health"
+              /></a>
+              <a href="#" id="science">
+                <img src="./Images/science_bg.jpg" alt="science"
+              /></a>
+              <a href="#" id="technology">
+                <img src="./Images/technlogy_bg.jpg" alt="technology" />
+              </a>
+              <a href="#" id="entertainment">
+                <img src="./Images/entertainment_bg.jpg" alt="entertainment" />
+              </a>
+            </ul>
+          </div>
+
+          <div id="sportSection" class="col-md-6 ml-10" ><h1></h1></div>
+
+          <div class="col-md-3">
+            <form>
+            <h5 class="p-2 border-bottom text-white font-weight-bold bg-secondary mt-2 text-uppercase">Search Weather</h5>
+            <input type="search" class="form-control" id="input" placeholder="Enter City Name">
+            </form>
+            <div id="weatherTemplate"></div>
+          </div>
+          </div>
+        </nav>
+      </article>
+    </section>
+
+    <!-- js files attachment -->
+    <script src="./Js/Allnews.js"></script>
+    <script src="./Js/Sports.js"></script>
+    <script src="/Js/Business.js"></script>
+    <script src="./Js/Entertainment.js"></script>
+    <script src="./Js/Health.js"></script>
+    <script src="./Js/Science.js"></script>
+    <script src="./Js/Technology.js"></script>
+    <script src="./Js/covid.js"></script>
+    <script src="./Js/weatherapi.js"></script>
+    <script src="./Js/Clock.js"></script>
+  </body>
+</html>
